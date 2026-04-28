@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+img, div, input, .inner-banner,      { behavior: url("iepngfix.htc") }
+
+body {
+	background-image:url(../images/main-bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.text-bg { height:100px; background-image:url(../images/text-bg.png); background-repeat:no-repeat; background-position:center; } 
+
+.gen-text { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFF; }
+.gen-text a { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-decoration:none; }
+.gen-text a:hover { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000; text-decoration:none; }
+
+
+.big-text { font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#9f0004; }
+.big-text a { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#9f0004; text-decoration:none; }
+.big-text a:hover { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; text-decoration:none; }
+
+
+.marathi-text { font-family:shivaji01; font-size:18px; color:#FFF; }
+/*.marathi-text-kruti { font-family:Kruti Dev 010; font-size:18px; color:#FFF; }
+*/
+.title { font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#9f0004; }
+.title a { font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#9f0004; text-decoration:none; }
+.title a:hover { font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#FFF; text-decoration:none; }
+
+
+.title-marathi { font-family:"Kruti Dev 010"; font-size:27px; font-weight:bold; color:#9f0004; }
+.title-marathi a { font-family:"Kruti Dev 010"; font-size:27px; font-weight:bold; color:#9f0004; text-decoration:none; }
+.title-marathi a:hover { font-family:"Kruti Dev 010"; font-size:27px; font-weight:bold; color:#FFF; text-decoration:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-text { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000; }
+.footer-text a { font-family:Arial, Helvetica, sans-serif; font-size:11px; text-decoration:none; color:#000; }
+.footer-text a:hover { font-family:Arial, Helvetica, sans-serif; font-size:11px; text-decoration:none; color:#F30; }
+
+.footer-text-marathi { font-family:"Kruti Dev 010"; font-size:15px; color:#000; }
+.footer-text-marathi a { font-family:"Kruti Dev 010"; font-size:15px; text-decoration:none; color:#000; }
+.footer-text-marathi a:hover { font-family:"Kruti Dev 010"; font-size:15px; text-decoration:none; color:#F30; }
